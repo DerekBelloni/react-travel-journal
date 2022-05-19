@@ -32,12 +32,24 @@ body {
 }
 
 .destination-img {
-  height: 300px;
-  width: 200px;
+  height: 350px;
+  width: 300px;
   border-radius: 15px;
+  margin-bottom: 5px;
 }
 
 .destination-title {
-  margin-left: 50px;
+  margin-top: 10px;
   font-size: 50px;
+}
+
+.destination-info {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.destination-description {
+  font-size: 20px;
 }
