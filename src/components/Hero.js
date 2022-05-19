@@ -8,9 +8,9 @@ const Hero = (props) => {
       <div className="destination-container">
         <img className="destination-img" src={props.data.imageUrl} alt="" />
         <div className="destination-info">
-          <span><GrLocation />{props.data.location}           <a href="https://goo.gl/maps/1DGM5WrWnATgkSNB8" target="_blank">View on Google Maps</a></span>
+          <span><GrLocation />{props.data.location}           <a href="https://goo.gl/maps/1DGM5WrWnATgkSNB8" className="google-maps" target="_blank">View on Google Maps</a></span>
           <h1 className="destination-title">{props.data.title}</h1>
-          <h3>{props.data.startDate} - {props.data.endDate} </h3>
+          <h3 className="destination-date">{props.data.startDate} - {props.data.endDate} </h3>
           <p className="destination-description">{props.data.description}</p>
         </div>
       </div>

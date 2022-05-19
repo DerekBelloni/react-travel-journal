@@ -29,6 +29,7 @@ body {
   margin: 100px 70px;
   height: 400px;
   border-bottom: solid rgba(128, 128, 128, 0.444);
+
 }
 
 .destination-img {
@@ -38,9 +39,17 @@ body {
   margin-bottom: 5px;
 }
 
+.google-maps {
+  color: grey;
+}
+
 .destination-title {
   margin-top: 10px;
   font-size: 50px;
+}
+
+.destination-date {
+  margin-top: 30px;
 }
 
 .destination-info {
